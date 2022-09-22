@@ -1,0 +1,23 @@
+{
+  "name": "week3",
+  "version": "1.0.0",
+  "description": "Week 3 Code: Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "start",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GarnettGrant/Gs-COMP229-Web-Dev.git"
+  },
+  "author": "Garnett Grant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GarnettGrant/Gs-COMP229-Web-Dev/issues"
+  },
+  "homepage": "https://github.com/GarnettGrant/Gs-COMP229-Web-Dev#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
