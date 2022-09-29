@@ -2,5 +2,5 @@
     function start(){
         console.log("App started...");
     }
-    window.addEventListener("load", start);
+    window.addEventListener("load", start);  
 })
