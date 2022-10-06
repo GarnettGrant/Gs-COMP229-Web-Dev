@@ -1,0 +1,47 @@
+<%- include('../partials/header.ejs')%>
+    <%- include('../partials/main_nav.ejs')%>
+
+        <div class="container">
+            <div class="row">
+                <div class="offset-md-3 colmd-6">
+                    <h1>
+                        <% title %>
+                    </h1>
+                    <form class="form" method="POST" action="">
+                        <div class="form-group">
+                            <label for="nameTextField">Book Title</label>
+                            <input type="text" class="form-control" name="title" id="nameTextField"
+                                placeholder="Enter the Book Title" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="authorTextField">Author</label>
+                            <input type="text" class="form-control" name="author" id="authorTextField"
+                                placeholder="Enter the Book Author" required>
+                        </div>
+
+                        <!-- <div class="form-group">
+                            <label for="publishedTextField">Year</label>
+                            <input type="text" class="form-control" name="year" id="publishedTextField"
+                                placeholder="Enter the Book Publish Year">
+                        </div> -->
+
+                        <div class="form-group">
+                            <label for="descriptionTextArea">Book Description</label>
+                            <textarea type="text" class="form-control" name="description" id="descriptionTextArea" placeholder="Enter a Brief Description of the Book" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="priceTextField">Book Price</label>
+                            <input type="number" class="form-control" name="price" id="priceTextField"
+                                placeholder="Enter the Book Price" required>
+                        </div>
+                        <button class="btn btn-primary" type="submit"><i class="fas fa-edit"></i>Submit</button>
+                        <a href="/bookList" claass="btn btn-warning"><i class="fas fa-cancel"></i> Cancel</a>
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+        <%- include('../partials/bottom_nav.ejs')%>
+        <%- include('../partials/footer.ejs')%>
